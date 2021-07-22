@@ -1,0 +1,34 @@
+/* FILMS start*/
+.card:hover .card__img {
+    transform: scale(1.5);
+}
+.card:hover .card__time {
+    transform: scale(0);
+    opacity: 0;
+}
+.card:hover .card__icon {
+    transform: scale(1.8) rotateX(180deg);
+}
+/* FILMS end*/
+/* COLECTIONS start*/
+.collections__content:hover::before {
+    transform: translateY(150%);
+}
+.collections__content:hover::after {
+    transform: translateY(-150%);
+}
+
+.collections__content:hover .collections__icon {
+    transform: scale(1.8) rotateX(180deg);
+}
+
+.collections__content:hover .collections__title {
+    transform: scale(0);
+    opacity: 0;
+}
+/* COLECTIONS end*/
+/* SERIES start*/
+.series__card:hover .series__img {
+    transform: scale(1.5);
+}
+/* SERIES end*/
